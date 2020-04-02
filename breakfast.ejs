@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="p5.js"></script>
+    <script src="box.js"></script>
+    <script src="ground.js"></script>
+    <script src="matter.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Breakfast</title>
+    <link rel="stylesheet" type="text/css" href="breakfast.css">
+</head>
+
+<body>
+    <h1 id="popup">
+        Good Morning!
+    </h1>
+    <form action="/BFSubmit" method="POST">
+
+        <div class="container">
+            <label for="uname"><b>Enter Your First Name:</b></label>
+            <input type="text" placeholder="Enter First Name" name="uname" required>
+            <label for="uname"><b>Enter Your Favorite Breakfest:</b></label>
+            <input type="text" placeholder="Enter Food" name="food" required>
+            <button type="submit">Submit</button>
+    </form>
+
+    <script src="sketch.js"></script>
+
+</body>
+
+</html>
